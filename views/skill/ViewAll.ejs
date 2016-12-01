@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1></h1>
+        <table border="1">
+            <tr><th></th><th></th><th></th></tr>
+            <% for(var i=0; result.length > i; i++ ) { %>
+            <tr>
+                <td><%= result[i]. %></td>
+                <td><a href="/school/?_id=<%= result[i]._id %>"><%= result[i]. %></a></td>
+                <td><%= result[i]. %></td>
+            </tr>
+            <% } %>
+        </table>
+    </body>
+</html>
